@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="60dp"
+    android:layout_height="40dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/tv_hiragana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="平"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/tv_roma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="罗"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/tv_katakana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="片"
+        android:textSize="17sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
