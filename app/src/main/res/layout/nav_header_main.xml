@@ -11,11 +11,26 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="53dp"
-        android:layout_height="53dp"
-        android:src="@drawable/oval_whit" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageView"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:background="@drawable/oval_whit" />
+
+        <ImageView
+            android:id="@+id/icon_about"
+            android:layout_width="53dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="53dp"
+            android:src="@drawable/icon_kerel" />
+
+    </RelativeLayout>
+
 
     <TextView
         android:layout_width="match_parent"
@@ -29,6 +44,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="It will take a long time."
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
 </LinearLayout>
